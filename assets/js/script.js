@@ -126,6 +126,10 @@ darkModeIcon.addEventListener('click', function () {
     footer.classList.toggle('txt-white');
     copyrightText.classList.toggle('text-darkmode');
 
+    emailForm.classList.toggle('text-darkmode');
+    messageForm.classList.toggle('text-darkmode');
+    objetForm.classList.toggle('text-darkmode');
+
     links.forEach(item => {
         item.classList.toggle('title-darkmode');
     });
